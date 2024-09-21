@@ -2,5 +2,5 @@ CREATE TABLE public.whatsapp_connections (
 	user_id varchar NOT NULL,
 	status varchar NULL,
 	whatsapp_user_id varchar NULL,
-	CONSTRAINT whatsapp_connections_pk null
+	CONSTRAINT whatsapp_connections_pk PRIMARY KEY (user_id)
 );
