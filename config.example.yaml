@@ -1,0 +1,11 @@
+database:
+  host: 
+  port: 
+  username: 
+  password: 
+  database: 
+
+http-server:
+  address: 0.0.0.0:8080
+
+log-level: debug

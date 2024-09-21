@@ -1,0 +1,6 @@
+CREATE TABLE public.whatsapp_connections (
+	user_id varchar NOT NULL,
+	status varchar NULL,
+	whatsapp_user_id varchar NULL,
+	CONSTRAINT whatsapp_connections_pk null
+);

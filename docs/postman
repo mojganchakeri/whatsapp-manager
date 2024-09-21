@@ -1,0 +1,10 @@
+Login:
+
+curl --location --request POST 'http://localhost:8080/v1/login' \
+--form 'user_id="test1"'
+
+-----------------------------------------------------------------------------------
+
+GET Status:
+
+curl --location --request GET 'http://localhost:8080/v1/status?user_id=test1'
